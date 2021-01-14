@@ -1,0 +1,9 @@
+.collapse {
+    border-collapse: collapse;
+}
+table th, table td, tfoot {
+  border: solid 1px;
+}
+table {
+    border: solid 1px;
+}

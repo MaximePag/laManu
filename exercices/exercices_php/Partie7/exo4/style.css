@@ -1,0 +1,9 @@
+form{
+    background-color: chartreuse;
+    width: 40%;
+    padding: 5%;
+    border: 3px black double;
+}
+form input, form button, form select{
+    margin: 3%;
+}

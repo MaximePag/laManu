@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>JavaScript - Partie 6 - Exercice 2</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <script>
+        for (let i = 1; i <= 100; i++) {
+            if (i % 15 == 0) {
+                var p = document.createElement("p");
+                p.innerHTML = "...";
+                document.body.appendChild(p);
+            } else {
+                var p = document.createElement("p");
+                p.innerHTML = i;
+                document.body.appendChild(p);
+            }
+        }
+    </script>
+</body>
+
+</html>

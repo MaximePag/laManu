@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Exercice 2</title>
+</head>
+
+<body>
+  <h1>Orgueil et Préjugés</h1>
+  <h2>Jane Austen</h2>
+  <h2>Chapitre 1</h2>
+  <div id="div">
+    <p>C’est une vérité presque incontestable qu’un jeune homme possesseur d’une grande fortune doit avoir besoin d’une
+      épouse. Bien que les sentiments et les goûts d’un tel homme ne soient pas connus, aussitôt qu’il vient se fixer
+      dans une province les familles du voisinage le regardent comme un bien qui doit dans peu appartenir à l’une ou
+      l’autre de leurs filles.</p>
+    <p>« Mon cher monsieur Bennet, avez-vous appris que le château de Netherfield est enfin loué ? » M. Bennet répondit
+      que non.</p>
+    <p>« Je puis vous assurer qu’on l’a loué, reprit sa femme, car Mme Long sort d’ici, et m’a dit tout ce qu’il en
+      était. »</p>
+    <p>M. Bennet ne fit point de réponse.</p>
+    <p>« Ne désirez-vous pas savoir, dit sa femme très vivement, quel est l’homme qui doit devenir notre voisin ?</p>
+    <p>- Vous désirez me le dire, et je veux bien vous écouter. »</p>
+    <p>Cet encouragement fut suffisant.</p>
+    <p>« Eh bien ! mon cher, sachez qu’un jeune homme fort riche vient habiter Netherfield ; il y passa lundi dernier en
+      voiture à quatre chevaux, il vit la maison, elle lui plut ; il parla sur-le-champ à M. Morris, et doit en prendre
+      possession à la Saint-Michel.</p>
+    <p>- Comment le nommez-vous ?</p>
+    <p>- Bingley.</p>
+    <p>- Est-il marié ?</p>
+    <p>- Non bien certainement. Un jeune homme très riche, quatre ou cinq mille livres sterling de rente, quel bonheur
+      pour nos filles !</p>
+    <p>- Comment donc, qu’est-ce que cela peut leur faire ?</p>
+    <p>- Mon cher monsieur Bennet, comme vous êtes ennuyeux ! ne voyez-vous pas qu’il est très probable qu’il en
+      épousera une.</p>
+    <p>- Est-ce là son intention en venant demeurer ici ?</p>
+    <p>- Son intention ! Peut-on dire une telle sottise ; mais il est très possible qu’il devienne amoureux d’une de nos
+      filles ; ainsi il faut que vous lui fassiez une visite aussitôt après son arrivée.</p>
+    <p>- Je ne vois à cela aucune nécessité ; vous pouvez y aller avec vos filles ou les envoyer toutes seules, cela
+      vaudrait encore mieux, car, comme vous êtes tout aussi belle qu’elles, vous pourriez bien attirer vous-même
+      l’attention de M. Bingley.</p>
+    <p>- Mon cher, vous me flattez, je sais que j’ai été belle ; mais je ne prétends pas mériter maintenant un si joli
+      compliment ; quand on a cinq filles à marier, on ne doit plus songer à ses propres attraits : mais, mon cher, il
+      faudra réellement que vous alliez voir M. Bingley.</p>
+    <p>- C’est plus que je ne puis vous promettre.</p>
+    <p>- Pensez donc un peu plus à vos filles ; ce serait un fort brillant établissement pour l’une d’elles. Sir William
+      et lady Lucas doivent y aller dès son arrivée. Je suis sûre qu’ils ont la même pensée que moi, car en général ils
+      ne visitent pas les nouveaux venus ; il faut absolument que vous y alliez aussi, sans quoi nous ne pourrions faire
+      connaissance avec lui.</p>
+    <p>- Vous faites trop de façons, ma femme, je ne doute nullement que M. Bingley ne soit fort aise de vous voir ; je
+      vous donnerai quelques lignes pour lui, afin de l’assurer que je lui permets d’épouser celle de mes filles qui lui
+      plaira le plus ; mais je veux lui recommander ma petite Lizzy.</p>
+    <p>- Je vous prie de n’en rien faire ; Lizzy ne vaut pas mieux que les autres, je suis sûre qu’elle n’est pas à
+      beaucoup près aussi belle qu’Hélen, ni si gaie que Lydia, je ne sais pourquoi vous lui donnez toujours la
+      préférence.</p>
+    <p>- Elles n’ont, ni les unes ni les autres, rien de remarquable, répondit-il. Elles sont comme toutes les filles
+      simples et ignorantes ; mais certainement Lizzy a plus de vivacité que les autres.</p>
+    <p>- Monsieur Bennet, comment pouvez-vous parler ainsi de vos propres enfants ? Vous prenez plaisir à me tourmenter,
+      vous n’avez nulle pitié de mes pauvres nerfs.</p>
+    <p>- Vous vous trompez, ma chère, j’ai un grand respect pour vos nerfs, ce sont de vieux amis, il y a plus de vingt
+      ans que je vous en entends parler.</p>
+    <p>- Ah ! vous ne savez pas tout ce que je souffre !</p>
+    <p>- J’espère que cela passera et que vous vivrez assez pour voir au moins vingt jeunes gens, avec 4 000 sterling,
+      devenir nos voisins.</p>
+    <p>- Quand il y en aurait vingt, à quoi cela nous servirait-il, vous n’en verriez pas un seul.</p>
+    <p>- Soyez persuadée, ma chère, que lorsqu’il y en aura vingt, je les visiterai tous. »</p>
+    <p>Le caractère de M. Bennet était un si bizarre mélange de réserve, de caprice et d’humeur satirique que
+      vingt-trois ans de mariage avaient été insuffisants pour le bien faire connaître à sa femme ; celui de Mme Bennet
+      était moins difficile à définir ; c’était une femme sans esprit ni délicatesse ; dès qu’on la contrariait, elle
+      s’imaginait avoir mal aux nerfs ; son unique affaire était de chercher à marier ses filles, ses seuls plaisirs les
+      nouvelles et les visites.</p>
+  </div>
+  <button onclick="toBold()">Mettre en gras</button>
+  <button onclick="color()">Changer de couleur</button>
+  <button onclick="enlarge()">Agrandir</button>
+  <script>
+    function toBold() {
+      document.getElementById("div").style.fontWeight = "bolder";
+    }
+    function color() {
+      document.getElementById("div").style.color = "green";
+    }
+    function enlarge() {
+      document.getElementById("div").style.fontSize = "large";
+    }
+  </script>
+  <!-- <button onclick="textBold()">Mettre en gras</button>
+  <button onclick="textColor()">Changer de couleur</button>
+  <button onclick="textUpSize()">Agrandir</button>
+  <script>
+    var paragraph = document.getElementsByTagName('P'); // récupère tous les paragraphes du document
+    function textBold() {
+      for (paragraphIndex = 0; paragraphIndex < paragraph.length; paragraphIndex++) {
+        paragraph[paragraphIndex].style.fontWeight = 'bold';
+      }
+    }
+    function textColor() {
+      for (paragraphIndex = 0; paragraphIndex < paragraph.length; paragraphIndex++) {
+        paragraph[paragraphIndex].style.color = 'red';
+      }
+    }
+    function textUpSize() {
+      for (paragraphIndex = 0; paragraphIndex < paragraph.length; paragraphIndex++) {
+        paragraph[paragraphIndex].style.fontSize = '20px';
+      }
+    }
+  </script> -->
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>JavaScript - Partie 7 - Exercice 3</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <label for="number1">Nombre 1 : </label>
+    <input type="number" name="number1" id="number1" />
+    <label for="number2">Nombre 2 : </label>
+    <input type="number" name="number2" id="number2" />
+    <button onclick="multi(number1.value, number2.value)">Multiplier</button>
+    <p id="result"></p>
+    <script>
+        var multi = (number1, number2) => { document.getElementById('result').innerHTML = number1 * number2; }
+    </script>
+</body>
+<!-- <body>
+    <form>
+        <label>Premier nombre à multiplier :</label>
+        <input type="text" id="number1" />
+        <label>Deuxieme nombre à multiplier :</label>
+        <input type="text" id="number2" />
+        <button onclick="multiply()">Multiplier</button>
+    </form>
+    <script>
+        var multiply;
+        multiply = () => {
+            var number1 = document.getElementById("number1").value;
+            var number2 = document.getElementById("number2").value;
+            var result = number1 * number2;
+            alert('Le résultat est :' + result);
+        }
+    </script>
+</body> -->
+
+</html>

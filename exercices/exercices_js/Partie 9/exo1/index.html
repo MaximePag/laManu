@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="FR">
+
+<head>
+    <meta charset="utf-8" />
+    <title>JS Part9 ex1</title>
+    <script src="https://nosir.github.io/cleave.js/dist/cleave.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.5.10/addons/cleave-phone.fr.js "></script>
+</head>
+
+<body>
+    <fieldset>
+        <form>
+            <legend>Formulaire de paiement</legend>
+            <div class="form">
+                <p>Client</p>
+                <label for="name">Prénom</label>
+                <input class="input-name" name="name" id="name" type="text" />
+                <label for="surname">Nom</label>
+                <input class="input-surname" name="surname" id="surname" type="text" />
+                <label for="phone">Numero de Téléphone</label>
+                <input class="input-phone" name="phone" id="phone" type="text" />
+                <label for="expdate">Date de commande</label>
+                <input class="input-expdate" name="expdate" id="expdate" type="text" />
+                <p>Paiement</p>
+                <label for="ccnum">Numero de carte</label>
+                <input class="input-ccnum" name="ccnum" id="ccnum" type="text" />
+                <label for="date">Date d' expiration</label>
+                <input class="input-date" name="date" id="date" type="text" />
+                <label for="cvv">CVV</label>
+                <input class="input-cvv" name="cvv" id="cvv" type="text" />
+                <p>Carte acceptée</p>
+                <i class="fa fa-cc-visa" style="color:navy;">Visa</i>
+                <i class="fa fa-cc-american express" style="color:blue;">American express </i>
+                <i class="fa fa-cc-mastercard" style="color:red;">Mastercard </i>
+                <i class="fa fa-cc-electron" style="color:orange;">Electron</i>
+                <input type="submit" value="Soumettre" class="btn" />
+            </div>
+        </form>
+    </fieldset>
+    <script>
+        var cleave = new Cleave('.input-phone', {
+            phone: true,
+            phoneRegionCode: 'FR'
+        });
+        var cleave = new Cleave('.input-expdate', {
+            date: true,
+            delimiter: '/',
+            datePattern: ['d', 'm', 'y']
+        });
+        var cleave = new Cleave('.input-ccnum', {
+            creditCard: true,
+            onCreditCardTypeChange: function (type) {
+            }
+        });
+        var cleave = new Cleave('.input-date', {
+            date: true,
+            delimiter: '/',
+            datePattern: ['m', 'y']
+        });
+        var cleave = new Cleave('.input-cvv', {
+            numero: true,
+            blocks: [3],
+            uppercase: true
+        })
+    </script>
+</body>
+
+</html>
+<!-- <!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>JavaScript - Partie 9 - Exercice 1</title>
+</head>
+
+<body>
+    <form>
+        <ul>
+            <li><label for="input-firstName">Prénom</li>
+            <li><input id="input-firstName" type="text"></li>
+            <li><label for="input-lastName">Nom</li>
+            <li><input id="input-lastName" type="text"></li>
+            <li><label for="input-telNumber">Téléphone</li>
+            <li><input id="input-telNumber" type="tel"></li>
+            <li><label for="input-date">Date de commande</li>
+            <li><input id="input-date" type="text" placeholder="JJ/MM/AAAA"></li>
+            <li><label for="input-date">Numéro de carte de crédit</li>
+            <li><input id="input-cc" type="text" placeholder="XXXX-XXXX-XXXX-XXXX"></li>
+        </ul>
+    </form>
+    <script src="cleave.min.js"></script>
+    <script>
+        var inputcc = new Cleave('#input-cc', {
+            delimiter: '-',
+            blocks: [4, 4, 4, 4],
+            uppercase: true
+        });
+        var inputdate = new Cleave('#input-date', {
+            delimiter: '/',
+            blocks: [2, 2, 4],
+            uppercase: true
+        });
+        var inputtel = new Cleave('#input-telNumber', {
+            delimiter: '.',
+            blocks: [2, 2, 2, 2, 2],
+            uppercase: true
+        });
+    </script>
+</body>
+
+</html> -->

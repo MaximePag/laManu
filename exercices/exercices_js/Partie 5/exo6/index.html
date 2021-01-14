@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>JavaScript - Partie 5 - Exercice 6</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <form>
+        <label>Champ 1 :</label>
+        <input type="text" id="champ1" onfocus="focusfctn()" onblur="focusundo()" />
+        <label>Champ 2 :</label>
+        <input type="text" id="champ2" onfocus="focusfctn()" onblur="focusundo()" />
+        <script>
+            function focusfctn() {
+                document.getElementById("champ1").classList.add("focusclass")
+                document.getElementById("champ2").classList.add("focusclass")
+            }
+            function focusundo() {
+                document.getElementById("champ1").classList.remove("focusclass");
+                document.getElementById("champ2").classList.remove("focusclass");
+            }
+        </script>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Js-partie5-exo8</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <form id="form">
+        <div id="inputGroup">
+            <div class="form-group">
+                <label for="firstname">Prénom : </label>
+                <input class="form-control" type="text" id="firstname" placeholder="Prénom (16 caractères max)"
+                    required />
+            </div>
+            <div class="form-group">
+                <label for="age">Âge : </label>
+                <input class="form-control" type="number" id="age" placeholder="Âge" required />
+            </div>
+        </div>
+        <button type="button" id="clone" cloneNumber="0" onclick="fieldsClone()" class="btn btn-primary">+</button>
+    </form>
+    <script>
+        function fieldsClone() {
+            var element = document.getElementById('inputGroup');
+            var cloneBtn = document.getElementById('clone');
+            //On récupère l'attribut cloneNumber du bouton et on le converti en nombre.
+            var cloneNb = Number(cloneBtn.getAttribute('cloneNumber'));
+            //On incrémente cloneNb. Cela équivaut à : cloneNb = cloneNb + 1; 
+            cloneNb++;
+            //On affecte cloneNb comme valeur de l'attribut cloneNumber.
+            cloneBtn.setAttribute('cloneNumber', cloneNb);
+            //On copie tous les éléments contenus dans la div d'id "inputGroup"
+            var cln = element.cloneNode(true);
+            //On concatène l'id "inputGroup" avec cloneNb. 
+            cln.id = cln.id + cloneNb;
+            //On ajoute l'element cln dans la balise "form".
+            document.getElementById('form').appendChild(cln);
+        }
+    </script>
+</body>
+
+</html>
+<!--<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>JavaScript - Partie 5 - Exercice 8</title>
+</head>
+
+<body>
+    <form>
+        <label>Votre prénom :</label>
+        <input type="text" id="name" />
+        <label>Votre age :</label>
+        <input type="text" id="age" />
+        <button onclick="clone()">+</button>
+    </form>
+    <script>
+        function clone() {
+            var form = document.getElementsByTagName("form")[0];
+            var clone = form.cloneNode(true);
+            document.body.appendChild(clone);
+            event.preventDefault();
+        }
+    </script>
+</body>
+
+</html>-->

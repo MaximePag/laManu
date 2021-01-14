@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>JS Part 6 Ex 1</title>
+</head>
+
+<body>
+    <script>
+        for (var years = 2020; years <= 2030; years++) {
+            if (((years % 4 == 0) && (years % 100 != 0)) || (years % 400 == 0)) {
+                document.write('<p style="color:red">' + years + '</p>');
+            } else {
+                document.write('<p>' + years + '</p>');
+            }
+        }
+    </script>
+</body>
+
+</html>
+<!--<!DOCTYPE html>
+    <html lang="FR">
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+            <title>Js - partie 6 - exercice 1</title>
+            <style>
+                .color {
+                    color: red;
+                }
+            </style>
+        </head>
+        <body>
+            A l'aide d'une boucle, afficher toutes les années entre 2020 et 2030. Colorer en rouge toutes les années bissextiles.
+            <select name="year" size="1" id="yearSelect">
+            </select>
+            <script>
+                var list = document.getElementById('yearSelect');
+                for(var years=2020; years < 2031; years++) {
+                    var newOpt = document.createElement('option'); //creer balise 'option'
+                    newOpt.value = years; //valeur de newOpt
+                    newOpt.innerHTML = newOpt.value; // ce qui s'affiche dans la liste
+                    document.getElementById('yearSelect').appendChild(newOpt);
+                    if ((newOpt.value % 4 == 0) && ((newOpt.value % 100 != 0) || (newOpt.value % 400 == 0))) {
+                        newOpt.className = 'color';
+                    }
+                }
+            </script>
+        </body>
+    </html>-->
+
+
+
+<!--<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>JavaScript - Partie 6 - Exercice 1</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <script>
+        for (let i = 2020; i <= 2030; i++) {
+            if (i % 4 == 0) {
+                var p = document.createElement("p");
+                p.innerHTML = i;
+                p.style.color = "red";
+                document.body.appendChild(p);
+            } else {
+                var p = document.createElement("p");
+                p.innerHTML = i;
+                document.body.appendChild(p);
+            }
+        }
+    </script>
+</body>
+
+</html>-->

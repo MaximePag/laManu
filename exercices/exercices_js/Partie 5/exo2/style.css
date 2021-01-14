@@ -1,0 +1,9 @@
+body{
+    background-color: aqua;
+}
+.is_correct{
+    border-color: green;
+}
+.isnt_correct{
+    border-color: red;
+}

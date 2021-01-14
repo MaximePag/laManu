@@ -1,0 +1,58 @@
+div{
+    background-color: orangered;
+    width: 40%;
+    padding: 5%;
+    border: 3px black double;
+}
+div input, div button, div select{
+    margin: 3%;
+}
+table, tr, th, td{
+    border: 1px black solid;
+}
+th{
+    background-color: blue;
+    text-align: center;
+}
+td{
+    background-color: white;
+    text-align: center;
+}
+.daysName{
+    background-color: greenyellow;
+}
+.outMonthDay{
+    background-color: grey;
+}
+form{
+    border: 5px solid #1a4867;
+    padding: 5%;
+    border-radius: 15%;
+    width: 70%;
+    background-color: #2DABE3;
+}
+form li{
+    margin: 3%;
+}
+.invalid{
+    color: red;
+}
+.valid{
+    color: green;
+    font-weight: bold;
+}
+table, tr, th, td{
+    border: 1px black solid;
+}
+th{
+    background-color: blue;
+    text-align: center;
+}
+td{
+    background-color: white;
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 320px;
+}

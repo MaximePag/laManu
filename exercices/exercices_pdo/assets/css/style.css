@@ -1,0 +1,52 @@
+body{
+    background-image: url(../img/microbio.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+table, th{
+    border: 3px black solid;
+    color: black;
+}
+tr, td{
+    border: 1px black solid;
+    text-align: center;
+    color: black;
+    padding-top: 1%;
+}
+.imgTable{
+    width: 350px;
+    height: 300px;
+}
+.circle{
+    margin-top: 3%;
+    background-image: radial-gradient(circle, whitesmoke 40%, #66CFE2);
+    padding: 18%;
+    border-radius: 100%;
+    color: black;
+}
+.square{
+    margin-top: 1%;
+    background-image: linear-gradient(to top, whitesmoke 80%, #66CFE2);
+    padding: 5%;
+    border-radius: 5%;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.strip{
+    position: absolute;
+    height: 300px;
+    width: 100vw;
+    background-color: #66CFE2;
+    z-index: -1;
+    right: 50%;
+    top: 35%;
+}
+.invalid{
+    color: red;
+}
+#goku{
+    width: 180px;
+}

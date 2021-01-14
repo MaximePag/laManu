@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>JavaScript - Partie 7 - Exercice 1</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <form>
+        <label>Premier nombre à multiplier :</label>
+        <input type="text" id="number1" />
+        <label>Deuxieme nombre à multiplier :</label>
+        <input type="text" id="number2" />
+        <button onclick="multiply()">Multiplier</button>
+    </form>
+    <script>
+        function multiply() {
+            var number1 = document.getElementById("number1").value;
+            var number2 = document.getElementById("number2").value;
+            var result = number1 * number2;
+            alert('Le résultat est :' + result)
+
+        }
+    </script>
+</body>
+
+</html>

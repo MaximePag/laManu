@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>JavaScript - Partie 7 - Exercice 3</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <script>
+        let getStringLength = string => {
+            let stringLength;
+            if (string.length === 1) {
+                stringLength = 'La chaîne contient qu\'un seul caractère';
+            } else {
+                stringLength = `La chaîne contient ${string.length} caractères`;
+            }
+            return stringLength;
+        }
+    </script>
+    <!-- <script>
+        var getStringLength;
+        getStringLength = (string) => {
+            let stringLength;
+            if (string.length === 1) {
+                stringLength = 'La chaîne contient qu\'un seul caractère';
+            } else {
+                stringLength = `La chaîne contient ${string.length} caractères`;
+            }
+            return stringLength;
+        }
+    </script> -->
+</body>
+
+</html>

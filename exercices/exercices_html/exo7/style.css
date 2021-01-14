@@ -1,0 +1,13 @@
+#identity, #identity legend {
+    background-color: #2574a9;
+}
+#delivery, #delivery legend {
+    background-color: #9a12b3;
+}
+#paiement, #paiement legend {
+    background-color: #db0a5b;
+}
+ul li {
+    padding: 1px;
+    list-style: none;
+}

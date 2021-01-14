@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>JavaScript - Partie 5 - Exercice 1</title>
+</head>
+
+<body>
+    <form>
+        <label>Votre mot de passe :</label>
+        <input type="text" id="pwd" />
+        <label>Confirmez votre mot de passe :</label>
+        <input type="text" id="cpwd" />
+        <button onclick="color()">Click me</button>
+        <script>
+            function color() {
+                var pwd = document.getElementById("pwd").value;
+                var cpwd = document.getElementById("cpwd").value;
+                if (pwd == cpwd) {
+                    document.getElementById("pwd").style.borderColor = 'green';
+                    document.getElementById("cpwd").style.borderColor = 'green';
+                    event.preventDefault();
+                }
+                else {
+                    document.getElementById("pwd").style.borderColor = 'red';
+                    document.getElementById("cpwd").style.borderColor = 'red';
+                    event.preventDefault();
+                }
+            }
+            console.log(pwd);
+            console.log(cpwd);
+        </script>
+    </form>
+</body>
+
+</html>

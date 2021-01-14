@@ -1,0 +1,20 @@
+table{
+    text-align: center;
+    border: 5px black double;
+    background-color: grey;
+}
+td{
+    border: 1px black solid;
+    margin: auto;
+}
+#reset{
+    background-color: red;
+    border: 2px lightgrey solid;
+    color: white;
+    width: 80px;
+    height: 30px;
+}
+.champ{
+    width: 30px;
+
+}

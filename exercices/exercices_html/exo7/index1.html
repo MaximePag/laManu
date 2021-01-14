@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Exercice 7</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <form action="" method="post">
+            <fieldset id="id">
+                <legend id="id">Votre identité</legend>
+                <ol>
+                    <li><label for="nom">Nom:</label><input type="text" name="nom" id="nom" placeholder="Nom" size="20" maxlength="10" /></li>
+                    <li><label for="prenom">Prénom:</label><input type="text" name="prenom" id="prenom" placeholder="Prénom" size="20" maxlength="10" /></li>
+                    <li><label for="mail">Adresse Mail:</label><input type="text" name="mail" id="mail" placeholder="Adresse Mail" size="20" maxlength="10" /></li>
+                </ol>
+            </fieldset>
+            <fieldset id="liv">
+                <legend id="liv">Adresse de livraison</legend>
+                <ol>
+                    <li><label for="adresse">Adresse:</label><textarea name="adresse" id="adresse" rows="6" cols="20"></textarea></li>
+                    <li><label for="cp">Code Postal:</label><input type="text" name="cp" id="cp" placeholder="Code Postal" size="10" maxlength="6" /></li>
+                    <li><label for="ville">Ville:</label><input type="text" name="ville" id="ville" placeholder="Ville" size="20" maxlength="10" /></li>
+                </ol>
+            </fieldset>
+            <fieldset id="pay">
+                    <legend id="pay">Informations de réglement</legend>
+                    <ol>
+                        <li>Type de carte Bancaire:
+                            <input type="radio" name="visa" value="visa" id="visa" /><label for="visa">VISA</label>
+                            <input type="radio" name="mc" value="mc" id="mc" /><label for="mc">MasterCard</label></li>
+                        <li><label for="cartid">Numéro de carte:</label><input type="text" name="carteid" id="carteid" placeholder="Numéro de carte" size="20" maxlength="10" /></li>
+                        <li><label for="cartid">Code de sécurité:</label><input type="text" name="cartesecu" id="cartesecu" placeholder="Code de sécurité" size="20" maxlength="10" /></li>
+                        <li><label for="cartid">Nom du titulaire:</label><input type="text" name="cartenom" id="cartenom" placeholder="Nom du titulaire" size="20" maxlength="10" /></li>
+                    </ol>
+                </fieldset>
+        </form>
+        <input type="submit" value="J'achète !" />
+    </body>
+</html>
