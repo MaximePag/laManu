@@ -1,0 +1,13 @@
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\exercices\exercices_csharp\partie1\exercice2\obj\Debug\netcoreapp3.1\exercice2.csprojAssemblyReference.cache
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\exercices\exercices_csharp\partie1\exercice2\obj\Debug\netcoreapp3.1\exercice2.AssemblyInfoInputs.cache
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\exercices\exercices_csharp\partie1\exercice2\obj\Debug\netcoreapp3.1\exercice2.AssemblyInfo.cs
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\exercices\exercices_csharp\partie1\exercice2\obj\Debug\netcoreapp3.1\exercice2.csproj.CoreCompileInputs.cache
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\exercices\exercices_csharp\partie1\exercice2\bin\Debug\netcoreapp3.1\exercice2.exe
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\exercices\exercices_csharp\partie1\exercice2\bin\Debug\netcoreapp3.1\exercice2.deps.json
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\exercices\exercices_csharp\partie1\exercice2\bin\Debug\netcoreapp3.1\exercice2.runtimeconfig.json
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\exercices\exercices_csharp\partie1\exercice2\bin\Debug\netcoreapp3.1\exercice2.runtimeconfig.dev.json
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\exercices\exercices_csharp\partie1\exercice2\bin\Debug\netcoreapp3.1\exercice2.dll
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\exercices\exercices_csharp\partie1\exercice2\bin\Debug\netcoreapp3.1\exercice2.pdb
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\exercices\exercices_csharp\partie1\exercice2\obj\Debug\netcoreapp3.1\exercice2.dll
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\exercices\exercices_csharp\partie1\exercice2\obj\Debug\netcoreapp3.1\exercice2.pdb
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\exercices\exercices_csharp\partie1\exercice2\obj\Debug\netcoreapp3.1\exercice2.genruntimeconfig.cache
