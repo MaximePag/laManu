@@ -10,3 +10,4 @@ C:\Users\Maxime\OneDrive\Bureau\dev\laManu\exercices\exercices_csharp\partie1\ex
 C:\Users\Maxime\OneDrive\Bureau\dev\laManu\exercices\exercices_csharp\partie1\exercice5\obj\Debug\netcoreapp3.1\exercice5.dll
 C:\Users\Maxime\OneDrive\Bureau\dev\laManu\exercices\exercices_csharp\partie1\exercice5\obj\Debug\netcoreapp3.1\exercice5.pdb
 C:\Users\Maxime\OneDrive\Bureau\dev\laManu\exercices\exercices_csharp\partie1\exercice5\obj\Debug\netcoreapp3.1\exercice5.genruntimeconfig.cache
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\exercices\exercices_csharp\partie1\exercice5\obj\Debug\netcoreapp3.1\exercice5.csprojAssemblyReference.cache
