@@ -7,7 +7,7 @@ namespace exercice1
     {
         static void Main(string[] args)
         {
-            // Créer une liste en utilisant using System.collections.generic
+            // Créer une liste languages en utilisant using System.collections.generic
             List<string> languages = new List<string>();
             languages.Add("HTML");
             languages.Add("CSS");
