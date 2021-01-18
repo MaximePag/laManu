@@ -16,11 +16,11 @@ namespace exercice2
             {
                 Console.WriteLine("La saison du mois saisi est l'Eté.");
             }
-            else if ((month == "Septembre") || (month == "Octobre") || (month == "Décembre"))
+            else if ((month == "Septembre") || (month == "Octobre") || (month == "Novembre"))
             {
                 Console.WriteLine("La saison du mois saisi est l'Automne.");
             }
-            else if ((month == "Janvier") || (month == "Février") || (month == "Mars"))
+            else if ((month == "Décembre") || (month == "Janvier") || (month == "Février"))
             {
                 Console.WriteLine("La saison du mois saisi est l'Hiver.");
             }
