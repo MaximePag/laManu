@@ -10,7 +10,7 @@ namespace exercice3
             int number = random.Next(0, 100);
             int response = 0;
             int trys = 0;
-            while (response != 42)
+            while (response != number)
             {
                 Console.WriteLine("Devine le nombre secret entre 0 et 100");
                 response = int.Parse(Console.ReadLine());

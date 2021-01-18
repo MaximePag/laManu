@@ -6,17 +6,27 @@ namespace exercice3
     {
         static void Main(string[] args)
         {
-            int number = 0;
-            int result;
+            int result = 0;
+            int firstNumber = 0;
+            int secondNumber = 0;
+            int sum = 0;
             string response = "oui";
             while (response != "non")
             {
-                Console.WriteLine("La variable number est égal à " + number);
                 Console.WriteLine("Choisissez un nombre à additionner :");
-                int sum = int.Parse(Console.ReadLine());
-                result = number + sum;
+                firstNumber = int.Parse(Console.ReadLine());
+                Console.WriteLine("Choisissez un deuxième nombre à additionner :");
+                secondNumber = int.Parse(Console.ReadLine());                
+                if(result == 0)
+                {
+                    sum = firstNumber + secondNumber;
+                    result = sum;
+                }
+                else
+                {
+                    result = sum + firstNumber + secondNumber;
+                }
                 Console.WriteLine(result);
-                number = result;
                 Console.WriteLine("Voulez vous continuer ?");
                 response = Console.ReadLine();
             }
