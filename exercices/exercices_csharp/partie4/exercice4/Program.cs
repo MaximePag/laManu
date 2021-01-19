@@ -23,7 +23,7 @@ namespace exercice1
                     Console.WriteLine("\r\nJ'ai ajouté " + number + " dans la liste");
                     end = false;
                 }
-                else if (response == "stop" && numbers.Count < 2)
+                else if ((response == "stop") && (numbers.Count < 2))
                 {
                     Console.WriteLine("\r\nIl faut au minimum deux nombres à multiplier.");
                     end = false;

@@ -12,11 +12,11 @@ namespace exercice2
             bool isNumber = int.TryParse(age, out verifyAge);
             if (isNumber)
             {
-                if (verifyAge >= 18 && verifyAge <= 130)
+                if ((verifyAge >= 18) && (verifyAge <= 130))
                 {
                     Console.WriteLine("Vous avez " + age + "ans, vous êtes donc majeur.e.");
                 }
-                else if (verifyAge < 18 && verifyAge > 0)
+                else if ((verifyAge < 18) && (verifyAge > 0))
                 {
                     Console.WriteLine("Vous avez " + age + "ans, vous êtes donc mineur.e.");
                 }
