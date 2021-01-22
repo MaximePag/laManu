@@ -13,7 +13,7 @@ namespace exercice6
             Console.WriteLine(week.Vendredi);
             Console.WriteLine(week.Samedi);
             Console.WriteLine(week.Dimanche);
-            Console.WriteLine("\r\n" + week.Jeudi);
+            Console.WriteLine("\r\n" + (week)4);
         }
         public enum week
         {
