@@ -1,0 +1,26 @@
+C:\Users\Joshu\OneDrive\Bureau\Cours LaManu\Développement\Projet Quizz\Projet 1 Quizz\bin\Debug\netcoreapp3.1\Projet 1 Quizz.exe
+C:\Users\Joshu\OneDrive\Bureau\Cours LaManu\Développement\Projet Quizz\Projet 1 Quizz\bin\Debug\netcoreapp3.1\Projet 1 Quizz.deps.json
+C:\Users\Joshu\OneDrive\Bureau\Cours LaManu\Développement\Projet Quizz\Projet 1 Quizz\bin\Debug\netcoreapp3.1\Projet 1 Quizz.runtimeconfig.json
+C:\Users\Joshu\OneDrive\Bureau\Cours LaManu\Développement\Projet Quizz\Projet 1 Quizz\bin\Debug\netcoreapp3.1\Projet 1 Quizz.runtimeconfig.dev.json
+C:\Users\Joshu\OneDrive\Bureau\Cours LaManu\Développement\Projet Quizz\Projet 1 Quizz\bin\Debug\netcoreapp3.1\Projet 1 Quizz.dll
+C:\Users\Joshu\OneDrive\Bureau\Cours LaManu\Développement\Projet Quizz\Projet 1 Quizz\bin\Debug\netcoreapp3.1\Projet 1 Quizz.pdb
+C:\Users\Joshu\OneDrive\Bureau\Cours LaManu\Développement\Projet Quizz\Projet 1 Quizz\obj\Debug\netcoreapp3.1\Projet 1 Quizz.csprojAssemblyReference.cache
+C:\Users\Joshu\OneDrive\Bureau\Cours LaManu\Développement\Projet Quizz\Projet 1 Quizz\obj\Debug\netcoreapp3.1\Projet 1 Quizz.AssemblyInfoInputs.cache
+C:\Users\Joshu\OneDrive\Bureau\Cours LaManu\Développement\Projet Quizz\Projet 1 Quizz\obj\Debug\netcoreapp3.1\Projet 1 Quizz.AssemblyInfo.cs
+C:\Users\Joshu\OneDrive\Bureau\Cours LaManu\Développement\Projet Quizz\Projet 1 Quizz\obj\Debug\netcoreapp3.1\Projet 1 Quizz.csproj.CoreCompileInputs.cache
+C:\Users\Joshu\OneDrive\Bureau\Cours LaManu\Développement\Projet Quizz\Projet 1 Quizz\obj\Debug\netcoreapp3.1\Projet 1 Quizz.dll
+C:\Users\Joshu\OneDrive\Bureau\Cours LaManu\Développement\Projet Quizz\Projet 1 Quizz\obj\Debug\netcoreapp3.1\Projet 1 Quizz.pdb
+C:\Users\Joshu\OneDrive\Bureau\Cours LaManu\Développement\Projet Quizz\Projet 1 Quizz\obj\Debug\netcoreapp3.1\Projet 1 Quizz.genruntimeconfig.cache
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\projets_groupes\ProjetQuizz\bin\Debug\netcoreapp3.1\Projet 1 Quizz.exe
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\projets_groupes\ProjetQuizz\bin\Debug\netcoreapp3.1\Projet 1 Quizz.deps.json
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\projets_groupes\ProjetQuizz\bin\Debug\netcoreapp3.1\Projet 1 Quizz.runtimeconfig.json
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\projets_groupes\ProjetQuizz\bin\Debug\netcoreapp3.1\Projet 1 Quizz.runtimeconfig.dev.json
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\projets_groupes\ProjetQuizz\bin\Debug\netcoreapp3.1\Projet 1 Quizz.dll
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\projets_groupes\ProjetQuizz\bin\Debug\netcoreapp3.1\Projet 1 Quizz.pdb
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\projets_groupes\ProjetQuizz\obj\Debug\netcoreapp3.1\Projet 1 Quizz.csprojAssemblyReference.cache
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\projets_groupes\ProjetQuizz\obj\Debug\netcoreapp3.1\Projet 1 Quizz.AssemblyInfoInputs.cache
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\projets_groupes\ProjetQuizz\obj\Debug\netcoreapp3.1\Projet 1 Quizz.AssemblyInfo.cs
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\projets_groupes\ProjetQuizz\obj\Debug\netcoreapp3.1\Projet 1 Quizz.csproj.CoreCompileInputs.cache
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\projets_groupes\ProjetQuizz\obj\Debug\netcoreapp3.1\Projet 1 Quizz.dll
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\projets_groupes\ProjetQuizz\obj\Debug\netcoreapp3.1\Projet 1 Quizz.pdb
+C:\Users\Maxime\OneDrive\Bureau\dev\laManu\projets_groupes\ProjetQuizz\obj\Debug\netcoreapp3.1\Projet 1 Quizz.genruntimeconfig.cache

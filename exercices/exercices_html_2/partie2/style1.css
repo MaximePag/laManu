@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "RaleWay";
+    src: url("Raleway-Medium.ttf") format("truetype");
+}
+body{
+    font-family: "Raleway";
+    font-size: 2em;
+}
+.name{
+    font-weight: bold;
+    color: red;
+}
+#italic{
+    font-style: italic;
+}
