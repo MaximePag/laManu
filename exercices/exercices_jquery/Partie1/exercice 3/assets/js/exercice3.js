@@ -1,0 +1,1 @@
+$('p#text').css('font-family', 'Arial');
