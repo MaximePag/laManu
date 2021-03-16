@@ -1,0 +1,23 @@
+﻿<Window x:Class="Projet_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projet_WPF"
+        mc:Ignorable="d"
+        Title="GneuGenerator" Height="450" Width="800">
+    <Grid>
+        <Button Content="Cliquez pour générer un gneu" HorizontalAlignment="Left" Margin="30,23,0,0" VerticalAlignment="Top" Width="181" Click="Button_Click" Height="51"/>
+        <Label x:Name="label" Content="" HorizontalAlignment="Left" Margin="378,257,0,0" VerticalAlignment="Top"/>
+        <Button Content="Générer un gneu en alert" HorizontalAlignment="Left" Margin="333,23,0,0" VerticalAlignment="Top" Width="194" Height="51" Click="Button_Click_1"/>
+        <TextBox x:Name ="tki" HorizontalAlignment="Left" Height="23" Margin="298,106,0,0" TextWrapping="Wrap" Text="lel" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <Label Content="PTDR T KI ? :" HorizontalAlignment="Left" Margin="204,102,0,0" VerticalAlignment="Top"/>
+        <Label Content="{Binding Text, ElementName=tki}" ContentStringFormat="bOnJoUr {0}" HorizontalAlignment="Left" Margin="523,102,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name ="tki2" HorizontalAlignment="Left" Height="23" Margin="298,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged_1"/>
+        <Label Content="PTDR T KI ? acte 2 :" HorizontalAlignment="Left" Margin="170,147,0,0" VerticalAlignment="Top"/>
+        <Button Content="Gneu" HorizontalAlignment="Left" Margin="423,150,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="Button_Click_2"/>
+        <Label x:Name ="label2" Content="" HorizontalAlignment="Left" Margin="523,147,0,0" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Height="420" Margin="0,0,-0.4,0" VerticalAlignment="Top" Width="794"/>
+        <Button Content="lAmAnU" HorizontalAlignment="Left" Margin="10,366,0,0" VerticalAlignment="Top" Width="121" Height="44" Click="Button_Click_3"/>
+    </Grid>
+</Window>
